@@ -24,7 +24,7 @@ jobs:
         echo "Aplication name ${{env.APPLICATION_NAME}}"
 
      - name:  GitClone MyRepo
-       uses: actions/chekout@v3
+       uses: actions/checkout@v3
        
      - name: List Current Folder
        run: ls -la
