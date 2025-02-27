@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Print "Hello Message testing"
-       run: echo "Hello World from Testing"
+       run: echo "Hello World from Testing Blyad"
        
      - name: Execute few  commands
        run: |
