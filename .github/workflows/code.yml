@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Print "Hello Message testing"
-       run: echo "Hello World from Testing Blyad"
+       run: echo "Hello World from Testing"
        
      - name: Execute few  commands
        run: |
@@ -24,7 +24,7 @@ jobs:
         echo "Aplication name ${{env.APPLICATION_NAME}}"
 
      - name:  GitClone MyRepo
-       uses: action/chekout@v3
+       uses: actions/chekout@v3
        
      - name: List Current Folder
        run: ls -la
